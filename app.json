@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Foodie",
+    "slug": "foodie-recipe-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "platforms": ["ios", "android", "web"],
+    "web": { "name": "Foodie - Your Recipe Book", "bundler": "metro" },
+    "ios": { "supportsTablet": true },
+    "android": { "package": "com.averyjan.foodie" },
+    "plugins": [["expo-image-picker", { "photosPermission": "Allow Foodie to select recipe photos." }]]
+  }
+}
